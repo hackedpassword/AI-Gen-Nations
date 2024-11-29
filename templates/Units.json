@@ -1,0 +1,24 @@
+[
+	{
+		/* /jsons/Units.json */
+
+		"name": "Cossacks",
+		"unitType": "Gunpowder",  // grouping label. See unitTypes (if available)
+		"replaces": "Musketman",  // a default unit to be substituted. See units list (if available)
+		"uniqueTo": "Ukraine",  // this nation
+		"movement": 2,  // tiles per turn. 2 is default
+		"strength": 35,  // attack/defense strength. 1-100 is a good reference, no limit
+		"cost": 200,  // Determines number of turns to build (20 city production @ 200 production cost = 10 turns), (150 city production is high production, 250 is intensely high production)
+		"requiredTech": "Gunpowder",  // tech needed to access. See techs list (if available)
+		"upgradesTo": "Rifleman",  // unit evolution. See units list (if available)
+		"obsoleteTech": "Rifling",  // tech when acquired, this unit ceases availability. See techs list (if available)
+
+		// See uniques section. What attributes will this unit have?
+		"uniques": [
+				"+[25]% combat bonus in [Grassland]",
+				"+[25]% combat bonus in [Forest]",
+				"+[25]% combat bonus in [Plains]"
+		],
+		"attackSound": "shot"  // see sounds list (if available)
+	},
+]

@@ -1,0 +1,183 @@
+// example 1
+
+[
+	{
+		/* /jsons/Nations.json: */
+
+		"name": "Ukraine",
+		"leaderName": "Ivan Sirko",
+		"adjective": ["Ukrainian"],
+		
+		// startBias Terrains: Coast, Grasslands, Plains, Tundra, Desert, Lakes, Mountain, Snow
+		// startBias Features (applied to a terrain): Forest, Jungle, Marsh, Fallout, Oasis, Flood plains, Ice, Atoll
+		"startBias": ["Forest"],  // One of the above - terrain or feature
+		"preferredVictoryType": "Domination",  // Scientific, Cultural, Domination, Diplomatic, Time
+		
+		// dialogs:
+		"startIntroPart1": "Hail to you, o great hetman Ivan Sirko. Ukraine is one of the successors of the medieval realm of Kyivan Rus. As such, Ukraine has a claim to the lands of the Rus alongside Russia. This has brought Ukraine and Russia conflict against each other on who leads Kyiv. Ukraine is led by Ivan Sirko and his Cossack hosts.",
+		"startIntroPart2": "Lord Hetman, the Cossacks look to you to lead them into freedom and greatness. Will you wrest the Rus away from the Muscovite pretenders? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your lands will soon be mine, prepare for war!",
+		"attacked": "Have you declared war on us? This was a huge mistake on your part, prepare to be destroyed!",
+		"defeated": "You have destroyed our once great civilization. History will not look kindly upon you.",
+		"introduction": "Greetings, stranger! I am Ivan Sirko, Ataman of Zaporizhian Cossacks. Gaze in awe on the majesty that is our great civilization!",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "You again! What did you want?",
+		"tradeRequest": "Well, how is my proposal to you?",
+
+		// UI icon color overlay		
+		"outerColor": [0,0,255],
+		"innerColor": [255,255,0],
+		
+		// religions: Buddhism, Christianity, Confucianism, Hinduism, Islam, Judaism, Sikhism, Taoism, Tengriism, Zoroastrianism
+		"favoredReligion": "Christianity",
+		
+		"uniqueName": "Fertile Lands",  // maybe like a tagline describing the nation
+
+		// See uniques section. What gameplay attributes will this nation have?
+		"uniques": ["Double quantity of [Wheat] produced",
+			    "Double quantity of [Iron] produced",
+			    "Double quantity of [Coal] produced",
+			    "Double quantity of [Horses] produced"
+			   ],
+		// Cities representative of the nation, should be ~30
+		"cities": [
+			"Kyiv",
+			"Kharkiv",
+			"Dnipro",
+			"Odesa",
+			"Donetsk",
+			"Zaporizhia",
+			"Lviv",
+			"Kryvyi Rih",
+			"Mykolaiv",
+			"Mariupol",
+			"Luhansk",
+			"Makiivka",
+			"Simferopol",
+			"Vinnytsia",
+			"Sevastopol",
+			"Kherson",
+			"Poltava",
+			"Chernihiv",
+			"Cherkasy",
+			"Sumy",
+			"Horlivka",
+			"Zhytomyr",
+			"Kamyanske",
+			"Kropyvnytsky",
+			"Chernivtsi",
+			"Khmelnytskyi",
+			"Rivne",
+			"Ivano-Frankivsk",
+			"Ternopil",
+			"Kremenchuk",
+			"Lutsk",
+			"Bila Tserkva",
+			"Kramatorsk",
+			"Melitopol",
+			"Kerch",
+			"Nikopol",
+			"Lysychansk",
+			"Berdyansk",
+			"Pavlohrad",
+			"Sloviansk"
+		],
+	},
+]
+
+// example 2
+
+[
+	{
+		"name": "The Undead",
+		"leaderName": "The Mindless Horde",
+		"adjective": ["Undead"],
+		"preferredVictoryType": "Domination",
+		"style": "Undead",
+		
+		"startIntroPart1": "'When there's no more room in Hell, the dead will walk the earth.' - George A. Romero",
+		"startIntroPart2": "'Darkness falls across the land, the midnight hour is close at hand, creatures crawl in search of blood to terrorize y'all's neighborhood' - Vincent Price",
+		
+		"declaringWar": "BRAINS!",
+		"attacked": "Grrr!",
+		"defeated": "Urk!",
+		"introduction": "Brains...",
+		
+		"neutralHello": "Brains?",
+		"neutralLetsHearIt": "Talk?",
+		"neutralNo": "Bad...",
+		"neutralYes": "Good...",
+
+		"hateHello": "Grrr...",
+		"hateLetsHearIt": "Talk...",
+		"hateNo": "Hate!",
+		"hateYes": "Okay...",
+		
+		"afterPeace": "Mmmm....good brains.",
+		"tradeRequest": "T-...tr-...trade?",
+
+		"outerColor": [190,190,190],
+		"innerColor": [0,0,0],
+		"uniqueName": "The Great Infectious Horde",
+		"uniques": [
+			"Comment [Unable to gain Settlers or found more than one city]",
+			"Free [Gravedigger] appears <hidden from users>",
+			"[-50]% Unhappiness from [Population] [in all cities]",
+			"[-33]% [Culture] [in all cities]",
+			"[-33]% [Science] [in all cities]",
+			"[-33]% growth [in all cities]",
+			"[+30]% Strength <vs [City-States]>",
+			"Comment [Massive penalty in all interactions with City-States]",
+			"[+100]% City-State Influence degradation <hidden from users>",
+			"Resting point for Influence with City-States is increased by [-60] <hidden from users>",
+			"Gifts of Gold to City-States generate [-100]% more Influence <hidden from users>",
+			"[-33]% Golden Age length",
+			"[-33]% maintenance costs <for [All] units>",
+			"[All] units gain the [Undead] promotion",
+			"[non-[Air]] units gain the [Breach the Walls] promotion",
+			"[Melee] units gain the [Eat the Living] promotion",
+			"Gain a free [Infection] [in all cities]",
+			"[+15]% Strength <for [All] units> <when defending> <when fighting in [Graveyard] tiles>"],
+		"cities": ["Ground Zero", "Site B", "Site C", "Site D", "Site E", "Site F", "Site G", "Site H",
+			"Site I", "Site J", "Site K", "Site L", "Site M", "Site N", "Site O", "Site P", "Site Q", "Site R",
+			"Site S", "Site T", "Site U", "Site V", "Site W", "Site X", "Site Y", "Site Z"],
+		"spyNames": ["Walker", "Geek", "Lurker", "Fleshy", "Bony", "Biter", "Creeper", "Roamer", "Rotter", "Ripper"]
+	}
+]
+
+// example 3
+
+[
+	{
+		"name": "Spain",
+		"leaderName": "Isabella",
+		"adjective": ["Spanish"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Isabella",
+
+        "startIntroPart1": "Holy Isabella, envoy of God, Great Queen of Castille and León, your people celebrate you! Spain is a beautiful and ancient country, a link between Europe and Africa, one shore on the Mediterranean and the other on the mighty Atlantic Ocean. The Spanish culture had taken the best of the Christian and Muslim worlds, and was ready to dominate the world for centuries. Powerful Spanish military fleets and brave explorers found and conquered much of the New World. Exploiting a whole new continent and its riches, Spain reached a state of power few could compete with for hundreds of years.",
+        "startIntroPart2": "O splendid and virtuous Isabella! By the will of the heavens, will Spain reborn to achieve its holy destiny and become a new El Dorado? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "Repugnant spawn of the devil! You will pay!",
+		"defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
+		"introduction": "God blesses those who deserve it. I am Isabel of Spain.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Well?",
+		"tradeRequest": "I hope this deal will receive your blessing.",
+		"outerColor": [84,26,26],
+		"innerColor": [255,168,168],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Seven Cities of Gold",
+		"uniques": ["[+100 Gold] for discovering a Natural Wonder (bonus enhanced to [+500 Gold] if first to discover it)",
+			"[+1 Happiness] for every known Natural Wonder", "[+100]% Yield from every [Natural Wonder]"],
+		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
+			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
+			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
+			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
+        "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]
+    },
+]

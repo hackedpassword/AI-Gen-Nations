@@ -1,0 +1,15 @@
+[
+	{
+		/* /jsons/Buildings.json */
+
+		"name": "Sich",  // meta-building to be produced in a City center
+		"replaces": "Castle",  // a default building to be substituted. See buildings list (if available)
+		"cost": 120,  // Determines number of turns to build (10 city production @ 120 production cost = 12 turns), (150 city production is high production, 250 is intensely high production)
+		"uniqueTo": "Ukraine",  // this nation
+		"cityStrength": 10,  // 1-25 is a good reference, no limit
+		"cityHealth": 75,  // 1-150 is a good reference, no limit
+		"hurryCostModifier": 50,  // for engineer's ability, using this number as default atm
+		"requiredBuilding": "Walls",  // requirement to build, if any. See buildings list (if available)
+		"requiredTech": "Chivalry",  // tech needed to access. See techs list (if available)
+	},
+]
