@@ -18,9 +18,9 @@ Commentary: This building focuses on faith and cultural development, emphasizing
 		"requiredTech": "Philosophy",
 		"requiredBuilding": "Shrine",
 		"uniques": [
-				"Doubles Great Prophet points in this city",
+				"Gain enough Faith for [30]% of a Great Prophet",
 				"[+1 Gold] from [Plantation] tiles",
-				"Grants a free Social Policy upon construction"
+				"Free Social Policy <in [Capital] tiles>"
 		]
 	}
 
