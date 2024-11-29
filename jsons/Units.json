@@ -18,7 +18,7 @@ Commentary: This unit represents the guerrilla tactics and indomitable spirit of
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"uniques": [
-				"[+20]% Strength <when fighting in [Hill] tiles>",
+				// "[+20]% Strength <when fighting in [Hill] tiles>", // not working
 				"[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
 				"No movement cost to pillage"
 		],
