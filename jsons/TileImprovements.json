@@ -1,0 +1,26 @@
+[
+	{
+/*
+AI Gen notes on creation, by AI author
+
+Commentary: The kibbutz reflects agricultural and communal innovations while offering practical gameplay bonuses, tied to terrain and city placement.
+
+*/
+
+		"name": "Kibbutz",
+		"uniqueTo": "Israel",
+		"food": 2,
+		"culture": 1,
+		"gold": 1,
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+		"uniques": [
+				"[+1 Food] <after discovering [Biology]>",
+				"[+1 Culture] <after discovering [Agriculture]>",
+				"Provides additional [Happiness] when adjacent to a [City]"
+		],
+		"techRequired": "Agriculture"
+	}
+
+
+]

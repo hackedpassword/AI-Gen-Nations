@@ -1,0 +1,28 @@
+[
+	{
+/*
+AI Gen notes on creation, by AI author
+
+Commentary: This unit represents the guerrilla tactics and indomitable spirit of the Maccabean revolt, providing bonuses tied to terrain and asymmetrical power dynamics.
+
+*/
+
+		"name": "Maccabean Fighters",
+		"unitType": "Melee",
+		"replaces": "Swordsman",
+		"uniqueTo": "Israel",
+		"movement": 2,
+		"strength": 22,
+		"cost": 150,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+				"[+20]% combat bonus in [Hills]",
+				"[+10]% Strength <when fighting units from larger civilizations>",
+				"No movement cost to pillage"
+		],
+		"attackSound": "clash"
+	}
+
+]

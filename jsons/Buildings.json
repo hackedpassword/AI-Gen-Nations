@@ -1,0 +1,28 @@
+[	
+	{
+/*
+AI Gen notes on creation, by AI author
+
+Commentary: This building focuses on faith and cultural development, emphasizing Israel’s role as a spiritual and intellectual hub.
+
+*/
+
+		"name": "Temple of Solomon",
+		"replaces": "Temple",
+		"cost": 180,
+		"uniqueTo": "Israel",
+		"faith": 5,
+		"culture": 3,
+		"gold": 2,
+		"happiness": 2,
+		"requiredTech": "Philosophy",
+		"requiredBuilding": "Shrine",
+		"uniques": [
+				"Doubles Great Prophet points in this city",
+				"[+1 Gold] per [Incense] resource",
+				"Grants a free Social Policy upon construction"
+		]
+	}
+
+
+]

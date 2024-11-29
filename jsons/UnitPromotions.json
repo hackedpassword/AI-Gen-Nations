@@ -1,0 +1,18 @@
+[
+	{
+/*
+AI Gen notes on creation, by AI author
+
+Commentary: This promotion highlights resilience and cultural inspiration through warfare, reinforcing Israel’s defensive capabilities.
+
+*/
+
+		"name": "Chosen Warriors",
+		"uniques": [
+				"[+10]% Strength <vs [Military] units>",
+				"[+15]% Strength <when defending>",
+				"Earn [25]% of the damage dealt as [Culture]"
+		]
+	}
+
+]

@@ -1,0 +1,60 @@
+[
+	{
+/*
+AI Gen notes on creation, by AI author
+
+Highlights:
+Leader: King Solomon, embodying wisdom and prosperity, with bonuses tied to culture and alliances.
+Playstyle: Encourages cultural and economic growth through trade and diplomacy. Bonuses on Desert tiles reflect survival in arid regions.
+Religious Favor: Judaism is central to the narrative, tying into Great Person generation and city-state relationships.
+Cities: A mix of ancient and modern landmarks to represent Israel's historical and contemporary significance.
+Cities Expanded: Now includes a mix of ancient cities (e.g., Jerusalem, Hebron) and modern cities (e.g., Tel Aviv, Herzliya).
+Enhanced Uniques:
+- Double Iron and Incense: Reflects historical trade and spiritual significance.
+- Extra use for Great Prophets: A nod to the central role of religious influence.
+Cultural and Diplomatic Playstyle: Rewards trade routes, alliances, and Great Person creation, fostering a rich interplay of strategy.
+
+This aligns with Israel’s historical and modern attributes, while offering interesting gameplay mechanics. 
+*/
+
+		"name": "Israel",
+		"leaderName": "King Solomon",
+		"adjective": ["Israelite", "Jewish"],
+		"startBias": ["Hills", "Plains"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Judaism",
+		"uniqueName": "Wisdom of Solomon",
+		"uniques": [
+				"[+15]% [Culture] in [cities] with [Trade Routes]",
+				"[+1 Happiness] per [City-State ally]",
+				"[+50]% Great Person generation [in all cities]",
+				"[+2 Gold] on [Desert] tiles",
+				"Receive double quantity of [Iron] and [Incense]",
+				"Great Prophets can spread religion 1 extra time"
+		],
+		"startIntroPart1": "Hail, O great King Solomon, the wise and mighty ruler of ancient Israel. Known for your unmatched wisdom and your glorious temple in Jerusalem, you have inspired countless generations. From the deserts of the Negev to the hills of Judea, your people thrive under your enlightened rule.",
+		"startIntroPart2": "Will you lead the Israelites to a destiny of greatness, spreading wisdom and light across the world? Or will you let the empires of antiquity overshadow your achievements? The Torah speaks of a nation destined to endure—can you fulfill this prophecy?",
+		"declaringWar": "You have betrayed the covenant of peace. Prepare to meet your judgment!",
+		"attacked": "The Lord is with us, and we shall prevail!",
+		"defeated": "The light of Israel fades... but it will never die.",
+		"introduction": "Greetings, traveler. I am Solomon, ruler of Israel. Wisdom is the foundation of all great civilizations.",
+		"neutralHello": "Shalom.",
+		"hateHello": "Why do you trouble us again?",
+		"tradeRequest": "Does this deal satisfy your wisdom?",
+		"outerColor": [0, 102, 51],
+		"innerColor": [255, 223, 0],
+		"cities": [
+				"Jerusalem", "Tel Aviv", "Haifa", "Beersheba", "Nazareth", 
+				"Hebron", "Safed", "Tiberias", "Ashdod", "Eilat", 
+				"Acre", "Ramla", "Jaffa", "Bethlehem", "Ashkelon", 
+				"Qiryat Shemona", "Tzfat", "Dimona", "Arad", "Yavne",
+				"Rehovot", "Ramat Gan", "Netanya", "Herzliya", "Petah Tikva",
+				"Kfar Saba", "Bat Yam", "Holon", "Givatayim", "Modiin"
+		],
+		"spyNames": [
+				"Gideon", "Deborah", "Shimshon", "Eli", "Hannah", 
+				"Amos", "Ruth", "Levi", "Miriam", "Shimon"
+		]
+	}
+
+]
