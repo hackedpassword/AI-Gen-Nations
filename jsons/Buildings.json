@@ -19,7 +19,7 @@ Commentary: This building focuses on faith and cultural development, emphasizing
 		"requiredBuilding": "Shrine",
 		"uniques": [
 				"Doubles Great Prophet points in this city",
-				"[+1 Gold] per [Incense] resource",
+				"[+1 Gold] from [Plantation] tiles",
 				"Grants a free Social Policy upon construction"
 		]
 	}
