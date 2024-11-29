@@ -19,8 +19,8 @@ Commentary: This building focuses on faith and cultural development, emphasizing
 		"requiredBuilding": "Shrine",
 		"uniques": [
 				"Gain enough Faith for [30]% of a Great Prophet",
-				"[+1 Gold] from [Plantation] tiles",
-				"Free Social Policy <in [Capital] tiles>"
+				"[+1] [Gold] from [Plantation] tiles",
+				"Free Social Policy <in [Capital] cities>"
 		]
 	}
 
