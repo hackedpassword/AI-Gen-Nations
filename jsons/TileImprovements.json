@@ -17,7 +17,7 @@ Commentary: The kibbutz reflects agricultural and communal innovations while off
 		"uniques": [
 				"[+1 Food] <after discovering [Biology]>",
 				"[+1 Culture] <after discovering [Agriculture]>",
-				"Provides additional [Happiness] when adjacent to a [City]"
+				"[+1 Happiness]"
 		],
 		"techRequired": "Agriculture"
 	}
