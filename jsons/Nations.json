@@ -25,11 +25,13 @@ This aligns with Israel’s historical and modern attributes, while offering int
 		"favoredReligion": "Judaism",
 		"uniqueName": "Wisdom of Solomon",
 		"uniques": [
-				"[+15]% [Culture] in [cities] with [Trade Routes]",
-				"[+1 Happiness] per [City-State ally]",
+				"[+15]% [Culture] from each Trade Route",
+				"[+1 Happiness] from every [City-State]",
 				"[+50]% Great Person generation [in all cities]",
-				"[+2 Gold] on [Desert] tiles",
+				"[+2 Gold] <in [Desert] tiles>",
 				"Receive double quantity of [Iron] and [Incense]",
+				"Double quantity of [Iron] produced",
+				"Double quantity of [Incense] produced",
 				"Great Prophets can spread religion 1 extra time"
 		],
 		"startIntroPart1": "Hail, O great King Solomon, the wise and mighty ruler of ancient Israel. Known for your unmatched wisdom and your glorious temple in Jerusalem, you have inspired countless generations. From the deserts of the Negev to the hills of Judea, your people thrive under your enlightened rule.",
